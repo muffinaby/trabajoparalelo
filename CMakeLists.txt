@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add executable
-add_executable(secuencial v4.cpp boleta1.cpp procesamiento.cpp bd.cpp pbasic.cpp)
+add_executable(secuencial v4.cpp boleta1.cpp bd.cpp pbasic.cpp)
 
 # Find SQLite3 package
 find_package(SQLite3 REQUIRED)
